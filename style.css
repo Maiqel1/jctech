@@ -1,0 +1,160 @@
+h2, p, li{
+    color: white;
+}
+
+li{
+    list-style: square;
+}
+
+.wholeBody{
+    background-color: rgb(50, 78, 63);
+    /* background-image: url(img/img2.jpg); */
+}
+
+.logo img{
+    height: 60px;
+    width: 60px;
+}
+
+.navs li{
+    margin-left: 80px;
+}
+
+.navs li{
+    text-transform: uppercase;
+}
+
+.header1 {
+    background-color: blue;
+    background-image: url(img/img3.jpg);
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+    
+}
+
+.sect1{
+   margin-left: auto;
+   margin-top: 200px;
+   line-height: 30px;
+}
+
+.box1{
+    box-sizing: border-box;
+    box-sizing: content-box;
+    border-style: solid;
+    color: white;
+    height: 250px;
+    
+}
+
+.box2{
+    box-sizing: border-box;
+    box-sizing: content-box;
+    border-style: solid;
+    height: 250px;
+    color: white;
+    
+}
+
+.box3{
+    box-sizing: border-box;
+    box-sizing: content-box;
+    border-style: solid;
+    height: 250px;
+    color: white;
+}
+
+.box4{
+    box-sizing: border-box;
+    box-sizing: content-box;
+    border-style: solid;
+    height: 250px;
+    margin-top: 20px;
+    color: white;
+}
+
+.box5{
+    box-sizing: border-box;
+    box-sizing: content-box;
+    border-style: solid;
+    height: 250px;
+    color: white;
+    
+}
+
+.box6{
+    box-sizing: border-box;
+    box-sizing: content-box;
+    border-style: solid;
+    height: 250px;
+    margin-top: 20px;
+    color: white;
+}
+
+.whyUs{
+    background-image: url(img/img1.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+}
+
+
+.logoFooter img{
+    height: 150px;
+   
+}
+
+.ourPartners{
+    height: 300px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+
+/*phone styling*/
+@media all and (max-width: 560px){
+    .sect1{
+        margin-left: auto;
+        margin-top: 0px;
+        line-height: 30px;
+     }
+
+     .box1{
+        border-style: none;
+         margin-top: 20px;
+     }
+     .box2{
+        margin-top: 20px;
+        border-style: none;
+    }
+    .box3{
+        margin-top: 20px;
+        border-style: none;
+    }
+    .box4{
+        margin-top: 20px;
+        border-style: none;
+    }
+    .box5{
+        margin-top: 20px;
+        border-style: none;
+    }
+    .box6{
+        margin-top: 20px;
+        border-style: none;
+    }
+
+
+    .ourPartners{
+        height: 520px;
+        background-color: white;
+        border-radius: 30px;
+    }
+}
+/*tablet styling*/
+@media only screen and (min-width: 768px){
+
+}
+
